@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-chatbot-kit/src/components/Chat/Chat.jsx b/node_modules/react-chatbot-kit/src/components/Chat/Chat.jsx
+index 19bf344..074a2e8 100644
+--- a/node_modules/react-chatbot-kit/src/components/Chat/Chat.jsx
++++ b/node_modules/react-chatbot-kit/src/components/Chat/Chat.jsx
+@@ -176,7 +176,7 @@ const Chat = ({
+               onChange={(e) => setInputValue(e.target.value)}
+             />
+             <button
+-              className="react-chatbot-kit-chat-btn-send"
++              className="react-chatbot-kit-chat-btn-send teste"
+               style={customButtonStyle}
+             >
+               <ChatIcon className="react-chatbot-kit-chat-btn-send-icon" />
